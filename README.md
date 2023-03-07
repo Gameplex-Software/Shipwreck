@@ -7,8 +7,6 @@
 
 To use Shipwreck, simply import the `Shipwreck` class and call its `handle_error` method with the exception that was raised:
 
-pythonCopy code
-
 ```
 from shipwreck import Shipwreck
 
