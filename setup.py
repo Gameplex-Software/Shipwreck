@@ -1,16 +1,13 @@
 import setuptools
 
-with open('README.md', 'r', encoding='utf-8') as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name='ShipWreck',
     author='Gameplex Software',
     author_email='info@gameplexsoftware.com',
     description='A library for logging and handling Python errors and suggesting fixes',
     keywords='ShipWreck, pypi, package',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description="long_description,"
+    long_description_content_type='A library for logging and handling Python errors and suggesting fixes https://github.com/Gameplex-Software/Shipwreck/',
     url='https://github.com/gameplex-software/ShipWreck',
     package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
