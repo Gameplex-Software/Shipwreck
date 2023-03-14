@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='Shipwreck',
     version='0.1.3',
-    description='A library for handling Python errors and suggesting fixes',
+    description='A library for logging and handling Python errors and suggesting fixes',
     author='Gameplex Sfotware',
     author_email='info@gameplexsoftware.com',
     install_requires=[
